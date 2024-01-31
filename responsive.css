@@ -1,0 +1,150 @@
+@media screen and (max-width:992px) {
+ 
+   
+    .destination-banner{
+        flex-direction: column-reverse;
+    }
+    .banner-text{
+        width:100%;
+    }
+    .traveller-image{
+        width:100%;
+
+    }
+    .traveller-image img{
+        width:80%;
+        height:80%;
+    }
+    .nav-menu a,select{
+        /* font-size: 10px; */
+        padding-left:0px;
+    }
+    .destination-container{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* margin-top:40px; */
+        row-gap:20px;
+    }
+    .booking-container{
+        flex-direction: column;
+        /* width:1000px; */
+        /* flex-wrap: wrap; */
+        
+    }
+    .booking-steps{
+
+        width:100%;
+        /* flex-wrap:wrap; */
+        justify-content: center;
+        height:100%;
+        /* margin-left:100px; */
+    }
+    .upcoming-trip-container{
+        /* margin-left:200px; */
+        /* width:500px; */
+        justify-content: center;
+        padding:0px;
+        /* margin-top:50px; */
+        /* align-content: left; */
+    }
+    .upcoming-trip{
+        /* width:500px; */
+        margin-top:500px;
+       
+    }
+    .ongoing-trip{
+        /* width:300px; */
+        /* margin-top: 220px; */
+        margin-left:0px;
+    }
+    .subscribe-container{
+        margin-top:400px;
+    }
+   #plus2{
+    bottom:-600px;
+    right:10px;
+   }
+   .booking-steps{
+    width:100%;
+   }
+   .booking-steps h2 {
+    font-size: 60px;
+   
+}
+}
+@media screen and (max-width:768px){
+    .category-card-container{
+        flex-wrap:wrap;
+    }
+    .destination-container{
+        justify-content: space-around;
+    }
+    .booking-container{
+        margin-left:50px;
+    }
+    .upcoming-trip-container{
+        margin-left:225px;
+    }
+    #form1{
+        font-size: 20px;
+    }
+    .footer-container{
+        flex-wrap:wrap;
+    }
+    .nav-menu a,select{
+        flex-wrap: wrap;
+        font-size: 8px;
+    }
+    .booking-steps h2{
+        width:100%;
+    }
+  
+    .travel-container{
+        margin-top:-13px;
+       }
+      #book-your-trip{
+        margin-top:-5px;
+        font-size:14px;
+      }
+    
+   
+}
+@media screen and (max-width:576px){
+  
+    .upcoming-trip-container{
+        margin-left:355px;
+    }
+    .ongoing-trip{
+        margin-top: 0px;
+        margin-left:-200px;
+
+    }
+    .nav-menu{
+        padding:0px;
+    }
+    .nav-menu a,select{
+        font-size:5px;
+        padding-left:0px;
+    }
+    .booking-steps h2{
+        width:100%;
+    }
+   .footer-container{
+    justify-content: space-between;
+   }
+   .travel-container h1{
+    font-size:20px;
+   }
+  
+   .mail-container{
+    row-gap:10px;
+   }
+   .travel-container{
+    margin-top:5px;
+   }
+  #book-your-trip{
+    margin-top:7px;
+    font-size:14px;
+  }
+
+}
