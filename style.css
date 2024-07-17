@@ -2,6 +2,7 @@
     font-family: poppins;
     src: url(assets/fonts/Poppins/Poppins-Medium.ttf);
 }
+
 :root{
     --blue-text: #646493;
     --blue-head:#656583;
@@ -15,13 +16,13 @@
     margin-left: 5%;
     margin-right: 5%;
     font-family: poppins;
-    /* width:90%; */
     max-width:100%;
-    
 }
+
 .page-logo{
     margin-left:20px;
 }
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -37,7 +38,6 @@
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    /* padding:20px; */
 }
 
 .nav-menu a,select{
@@ -48,7 +48,6 @@
     text-decoration: none;
     color: var(--black);
     border: 1.4px solid var(--white);
-    /* height:10px; */
     border-radius: 10px;
 }
 
@@ -58,8 +57,6 @@
     padding-bottom:10px;
     padding-left:15px;
     padding-right:15px;
-    /* height:10px;
-    padding-bottom: 15px; */
     border: 1.4px solid var(--black);
 }
 
@@ -69,8 +66,6 @@
     text-align: center;
     border: 0; 
     outline: none;
-    
-
 }
 
 
@@ -81,12 +76,8 @@
 .banner-text {
     display: flex;
     flex-direction: column;
-
     width: 40%;
-
-    /* font-size: 20px; */
     padding-left: 20px;
-
 }
 
 .banner-text h1 {
@@ -110,8 +101,6 @@
     color: var(--white);
     width: 120px;
     height: 50px;
-  
-
 }
 
 #sub:hover {
@@ -144,7 +133,6 @@
     display: flex;
     box-sizing: border-box;
     justify-content: space-around;
-    /* flex-wrap:wrap; */
 }
 
 .category-card {
@@ -159,7 +147,6 @@
 
 .category-card:hover {
     border-radius: 15px;
-    /* box-shadow: rgba(217, 214, 214, 0.45) 0px 76px 22px -1px; */
     box-shadow: rgb(216 210 210 / 45%) 0px 67px 46px -12px;
     cursor: pointer;
 }
@@ -195,18 +182,17 @@
     margin-top: -15px;
     color: var(--heading);
     font-weight: 10;
-
 }
+
 .services{
     position:relative;
 }
+
 #plus2 {
     position: absolute;
-
     right: 0px;
     bottom: -240px;
     transform: rotate3d(180deg);
-    /* transform: rotateY(180deg); */
 }
 
 .category-text {
@@ -223,45 +209,24 @@
 .destination-container {
     display: flex;
     flex-wrap: wrap;
-    /* box-sizing: border-box; */
     justify-content: space-around;
-
-
 }
 
 .destination-card {
     display: flex;
     flex-direction: column;
-   
     background-color: transparent;
     align-items: left;
     width: 330px;
-    /* height: 330px; */
-  
     border-radius: 25px;
     padding: -10px;
     justify-content: space-around;
-    
-    
     box-shadow: rgb(216 210 210 / 45%) 0px 67px 46px -12px;
-
 }
 
 .destination-card img {
     height: 350px;
-    /* margin:0px; */
 }
-
-
-
-/* .trip {
-    flex-grow: 8;
-    padding-left: 10px;
-} */
-
-
-
-
 
 .social-media-icon{
     width: 40px;
@@ -270,6 +235,7 @@
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+
 .social-media-icon:hover{
     cursor:pointer;
 }
@@ -277,7 +243,6 @@
 .trip-details {
     background-color: var(--white);
     margin-top: -50px;
-    /* height:px; */
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 20px;
@@ -320,36 +285,20 @@
 }
 
 .booking-container {
-   
     display: flex;
-    
-    /* justify-content: space-between; */
-    /* margin-left: -70px;*/
     margin-top: 100px; 
-    /* width:90%; */
-    /* gap:150px; */
-    
 }
-
-
-/* .steps{
-    display:flex;
-    flex-direction: column;
-} */
 
 .booking-steps {
     display: flex;
     flex-direction: column;
-    /* margin-left:20px; */
-    /* width:40%; */
     padding-left:30px;
-    /* position:relative; */
 }
+
 .trip-status{
-    /* width:150px; */
     height:15px;
-    /* background:blue; */
 }
+
 .trip-status::-webkit-meter-optimum-value {
     background:#58367d ;
   }
@@ -362,10 +311,8 @@
 
 .booking-flow{
     margin-top: -40px;
-    /* margin-left:100px; */
     display: flex;
     flex-direction: column;
-
 }
 
 .trip-logo {
@@ -380,12 +327,8 @@
 
 .travel-steps {
     padding-left: 20px;
-   /* width:50%; */
    display:flex;
-    
    flex-direction: column;
-   /* margin-left:-100px; */
-
 }
 .travel-steps p{
    margin-left:100px;
@@ -394,34 +337,21 @@
 .upcoming-trip-container {
     display: flex;
     justify-content: space-around;
-    /* margin: 2px; */
-    /* padding: 150px; */
     margin-top: 152px;
-
-    /* width:40%; */
-    /* width:   00px; */
 }
 
 .upcoming-trip-card {
     display: flex;
     flex-direction: column;
-    /* width: 290px; */
     border-radius: 10px;
-    /* box-shadow: rgb(218, 244, 255) 74px -36px 70px -10px, rgba(0, 0, 0, 0.1) 0px 31px 35px; */
-    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
     box-shadow:rgb(218, 244, 255) 44px -16px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     position: absolute;
     z-index: 1;
     margin-top: -80px;
     padding: 10px;
     margin-left:-400px;
-       /* margin-left:0px; */
-        padding-left:12px;
-        color:var(--black);
-    
-
-
+    padding-left:12px;
+    color:var(--black);
 }
 
 .logo-trip {
@@ -433,7 +363,6 @@
     padding: 10px;
     margin-left:0px;
     border-radius: 10px;
-    /* width: 270px; */
 }
 
 .leaf-logo {
@@ -441,7 +370,6 @@
     height: 30px;
     background-color: #F9F7FE;
     border-radius: 50%;
-    /* padding-left:10px; */
     margin-left: 20px;
 }
 
@@ -452,14 +380,14 @@
     margin-left: 5px;
 }
 
-
-
 .destination-town-cost{
     padding-left:145px;
 }
+
 .destination-town-cost-italy{
     padding-left:135px;
 }
+
 .date-of-journey{
     margin-top:0px;
     padding-left:10px;
@@ -468,41 +396,38 @@
 
 }
 
-
 .building-logo span{
-  /* font-size:15px; */
   color:rgb(100, 100, 143);
-  /* margin-left:-50px; */
   margin-left:10px;
   margin-top:0px;
   padding-bottom: 10px;
 }
 
-    
 .people-travelling{
     display:flex;
     justify-content: space-between;
     margin-top:20px;
 }
+
 .heart-img{
     width:20px;
     height:20px;
-    /* margin-top:10px; */
 }
+
 .building-logo {
    display:flex;
    justify-content: space-around;
    margin-left:20px;
 }
+
 .building-logo img{
     width:20px;
     height: 20px ; 
-    /* margin-top:5px; */
 } 
+
 .booking-steps p {
     padding-left: 2px;
     color: rgb(83, 83, 135);
-    /* padding-left:100px; */
 }
 
 .booking-steps h2 {
@@ -510,8 +435,6 @@
     line-height: 70px;
     font-weight: 10;
     width:60%;
-    /* word-wrap: wrap; */
-    /* margin-left:100px; */
     font-size: 54px;
     color: rgb(2, 2, 58);
 }
@@ -525,39 +448,24 @@
 }
 
 .ongoing-trip{
-    /* position:relative; */
-
-
     margin-top: 110px;
-    /* top:100px; */
     padding: 10px;
-
     background-color: var(--white);
     border-radius: 10px;
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    /* box-shadow: (0, 0, 0, 0.1) 10px 31px 35px; */
     position: absolute;
-    /* margin-left:00px; */
-    /* left:200px; */
     z-index: 2;
-
 }
 
 .ongoing-text {
-
     padding-left: 5px;
     padding-right: 40px;
-
-
 }
-
-
 
 .subscribe-container {
     background-color: #F9F7FE;
     height: 300px;
-    /* width: 100%; */
     border-top-left-radius: 100px;
     text-align: center;
     display: flex;
@@ -578,21 +486,19 @@
     transform: rotate3d(180deg);
     opacity: 0.1;
 }
+
 .subscribe-inside{
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
 }
+
 #form1 {
     padding-top: 30px;
-    /* padding-left: 50px; */
-    /* padding-bottom:50px; */
     padding-left:100px;
     font-size: 30px;
     --subs:rgb(119, 119, 135);
     color: var(--subs);
-     /* width:40%;
-    text-align: center;  */
 }
 
 .mail-icon {
@@ -601,14 +507,10 @@
     background-color:var(--white);
     border-radius: 5px;
     padding: 10px;
-
 }
 
 .mail-bar {
-    /* padding-left: ; */
     padding-left: 38px;
-
-
 }
 
 .mail-bar input[type="email"] {
@@ -619,11 +521,8 @@
 .email-icon {
     position: absolute;
     width: 20px;
-
     top: 15px;
     left: 15px;
-
-
 }
 
 .mail-container{
@@ -638,7 +537,6 @@
     right: -29px;
     width: 300px;
     opacity: 0.1;
-
     transform: rotate(270deg);
 }
 
@@ -646,20 +544,19 @@
     position: absolute;
     top: -20px;
     right: -18px;
-
 }
 
 #plus {
     position: absolute;
-
     right: -120px;
     bottom: -100px;
     transform: rotateX(180deg);
-
 }
+
 .subscribe-button:hover{
     cursor:pointer;
 }
+
 .subscribe-button {
     padding: 5px;
     width: 120px;
@@ -704,23 +601,28 @@
     flex-direction: column;
     padding: 2px;
 }
+
 .trip-to-rome{
     line-height: 25px;
 }
+
 .company-container h3 {
     margin-left: 5px;
 }
+
 .status-percent
 {
     --percent:#9661CF;
     color:var(--percent) ; 
     padding-right: 3px;
 }
+
 .status p{
     line-height: 25px;
     margin-bottom:-0px;
     color:var(--black);
 }
+
 .ongoing-towards{
     --on:#655C78;
     color:var(--on) ;
@@ -733,13 +635,12 @@
     justify-content: space-around;
     --detail-text:rgb(71, 71, 104);
     color: var(--detail-text);
-
-
 }
 
 .details div {
     margin: 5px;
 }
+
 .details div:hover {
     cursor:pointer;
 }
@@ -747,7 +648,6 @@
 .social-media-container {
     display: flex;
     flex-direction: column;
-
     justify-content: space-around;
 }
 
@@ -757,23 +657,20 @@
     margin-top: 20px;
     width: 20px;
     height: 20px;
-    /* justify-content: space-around; */
     align-items: center;
     gap: 20px;
-
-
-
 }
+
 .app-download-text b{
  font-size:8px;
 }
+
 .app-download-text p{
     font-size:9px;
 }
 
 .social-media-icon-container img {
     padding: 10px;
-
     width: 20px;
     height: 20px;
 }
@@ -789,17 +686,13 @@
 .app-download-container span {
     margin-top: 15px;
     color:var(--primary);
-    
     font-size: 20px;
 }
 
 .app-download-container-icon {
     display: flex;
     height: 50px;
-    /* text-align: center; */
     align-items: center;
-    /* padding-left:0px; */
-
 }
 
 .playstore {
@@ -835,11 +728,21 @@
 .copy-right p {
     font-size: 13px;
     text-align: center;
-
 }
 
 #book-your-trip {
    font-size: 15 px;
-
 }
 
+.add-button{
+    background-color: red;
+    height:5rem;
+    width:5rem;
+    position: relative;
+    top:-14rem;
+    left:8rem;
+}
+
+.navigation:nth-of-type(even){
+    background-color: red;
+}
